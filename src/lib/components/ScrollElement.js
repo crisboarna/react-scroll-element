@@ -14,7 +14,7 @@ const ScrollElement = ({type, text} : Props) => {
       <div className={
         // $FlowFixMe: This type cannot be coerced to string
         `scroll-element-${type}`}>
-        {type === 'chevron-sliding-fade-triple' ? [<span></span>,<span></span>,<span></span>] : <span></span>}
+        {type === 'chevron-sliding-fade-triple' ? [<span key={1}></span>,<span key={2}></span>,<span key={3}></span>] : <span></span>}
         {text}
       </div>
     </div>

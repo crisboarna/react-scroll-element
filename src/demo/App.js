@@ -21,12 +21,16 @@ const App = () => (
       <a href="#s5"><ScrollElement type='chevron-sliding-fade-triple'/></a>
     </section>
     <section id="s5">
-      <h1>chevron-circle</h1>
-      <a href="#s6"><ScrollElement type='chevron-circle'/></a>
+      <h1>chevron-sliding-fade-spin</h1>
+      <a href="#s6"><ScrollElement type='chevron-sliding-fade-spin'/></a>
     </section>
     <section id="s6">
+      <h1>chevron-circle</h1>
+      <a href="#s7"><ScrollElement type='chevron-circle'/></a>
+    </section>
+    <section id="s7">
       <h1>chevron-circle-pulse</h1>
-      <a href="#s7"><ScrollElement type='chevron-circle-pulse'/></a>
+      <a href="#s8"><ScrollElement type='chevron-circle-pulse'/></a>
     </section>
   </div>
 );

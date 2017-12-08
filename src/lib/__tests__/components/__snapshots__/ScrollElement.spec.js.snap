@@ -91,6 +91,19 @@ exports[`ScrollElement snapshots types chevron sliding fade 1`] = `
 </div>
 `;
 
+exports[`ScrollElement snapshots types chevron sliding fade spin 1`] = `
+<div
+  className="scroll-element"
+>
+  <div
+    className="scroll-element-chevron-sliding-fade-spin"
+  >
+    <span />
+    Scroll
+  </div>
+</div>
+`;
+
 exports[`ScrollElement snapshots types chevron sliding fade triple 1`] = `
 <div
   className="scroll-element"
@@ -98,9 +111,15 @@ exports[`ScrollElement snapshots types chevron sliding fade triple 1`] = `
   <div
     className="scroll-element-chevron-sliding-fade-triple"
   >
-    <span />
-    <span />
-    <span />
+    <span
+      key="1"
+    />
+    <span
+      key="2"
+    />
+    <span
+      key="3"
+    />
     Scroll
   </div>
 </div>
