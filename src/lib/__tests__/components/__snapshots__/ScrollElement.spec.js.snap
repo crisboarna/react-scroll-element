@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScrollElement snapshots default component 1`] = `
+<div
+  className="scroll-element"
+>
+  <div
+    className="scroll-element-chevron"
+  >
+    <span />
+    Scroll
+  </div>
+</div>
+`;
+
+exports[`ScrollElement snapshots text 1`] = `
+<div
+  className="scroll-element"
+>
+  <div
+    className="scroll-element-chevron"
+  >
+    <span />
+    TEST
+  </div>
+</div>
+`;
+
+exports[`ScrollElement snapshots types chevron 1`] = `
+<div
+  className="scroll-element"
+>
+  <div
+    className="scroll-element-chevron"
+  >
+    <span />
+    Scroll
+  </div>
+</div>
+`;
+
+exports[`ScrollElement snapshots types chevron circle 1`] = `
+<div
+  className="scroll-element"
+>
+  <div
+    className="scroll-element-chevron-circle"
+  >
+    <span />
+    Scroll
+  </div>
+</div>
+`;
+
+exports[`ScrollElement snapshots types chevron circle pulse 1`] = `
+<div
+  className="scroll-element"
+>
+  <div
+    className="scroll-element-chevron-circle-pulse"
+  >
+    <span />
+    Scroll
+  </div>
+</div>
+`;
+
+exports[`ScrollElement snapshots types chevron sliding 1`] = `
+<div
+  className="scroll-element"
+>
+  <div
+    className="scroll-element-chevron-sliding"
+  >
+    <span />
+    Scroll
+  </div>
+</div>
+`;
