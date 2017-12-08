@@ -39,6 +39,16 @@ describe('ScrollElement', () => {
         expect(component).toMatchSnapshot();
       });
 
+      it('chevron sliding fade', () => {
+        component = shallow(<ScrollElement type = 'chevron-sliding-fade'/>);
+        expect(component).toMatchSnapshot();
+      });
+
+      it('chevron sliding fade triple', () => {
+        component = shallow(<ScrollElement type = 'chevron-sliding-fade-triple'/>);
+        expect(component).toMatchSnapshot();
+      });
+
       it('chevron circle', () => {
         component = shallow(<ScrollElement type = 'chevron-circle'/>);
         expect(component).toMatchSnapshot();

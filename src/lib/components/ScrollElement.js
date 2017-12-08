@@ -9,14 +9,16 @@ type Props = {
 };
 
 const ScrollElement = ({type, text} : Props) => {
-   return(
-      <div className='scroll-element'>
-        < div className={
-          // $FlowFixMe: This type cannot be coerced to string
-          `scroll-element-${type}`}>
-          <span></span>{text}</div>
+  return(
+    <div className='scroll-element'>
+      <div className={
+        // $FlowFixMe: This type cannot be coerced to string
+        `scroll-element-${type}`}>
+        {type === 'chevron-sliding-fade-triple' ? [<span></span>,<span></span>,<span></span>] : <span></span>}
+        {text}
       </div>
-    );
+    </div>
+  );
 };
 
 ScrollElement.propTypes = {

@@ -1,18 +1,27 @@
-* {
-  margin: 0;
-  padding: 0;
-}
 html, body {
-  height: 100%;
   background: black;
 }
+
 section {
   position: relative;
   width: 100vw;
   height: 100vh;
 }
 
-#section01 { background: url(https://pre00.deviantart.net/0f7d/th/pre/f/2012/163/6/f/beyond_tomorrow___scenery_by_mig_05-d5375yn.png) center center / cover no-repeat;}
-#section02 { background: url(https://img00.deviantart.net/2ea7/i/2008/123/4/8/a_litte_scenery_by_code_scythe.jpg) center center / cover no-repeat;}
-#section03 { background: url(https://img00.deviantart.net/773c/i/2008/124/6/c/end_of_a_journey_by_code_scythe.jpg) center center / cover no-repeat;}
-#section04 { background: url(https://pre00.deviantart.net/f2d6/th/pre/i/2009/048/1/1/top_of_the_atmosphere_by_code_scythe.jpg) center center / cover no-repeat;}
+section h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#s1 { background: url(https://pre00.deviantart.net/0f7d/th/pre/f/2012/163/6/f/beyond_tomorrow___scenery_by_mig_05-d5375yn.png) center center / cover no-repeat;}
+#s2 { background: url(https://img00.deviantart.net/2ea7/i/2008/123/4/8/a_litte_scenery_by_code_scythe.jpg) center center / cover no-repeat;}
+#s3 { background: url(https://img00.deviantart.net/773c/i/2008/124/6/c/end_of_a_journey_by_code_scythe.jpg) center center / cover no-repeat;}
+#s4 { background: url(https://pre00.deviantart.net/f2d6/th/pre/i/2009/048/1/1/top_of_the_atmosphere_by_code_scythe.jpg) center center / cover no-repeat;}
+#s5 { background: url(https://img00.deviantart.net/6aff/i/2017/066/5/f/dusk_moment_by_bdrc-db1krmg.jpg) center center / cover no-repeat;}
+#s6 { background: url(https://pre00.deviantart.net/d269/th/pre/i/2016/186/7/e/autumn_liberty_reservoir_by_somadjinn-da8v0y6.jpg) center center / cover no-repeat;}
