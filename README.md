@@ -30,7 +30,7 @@ npm i react-scroll-element
 ## Setup
 
 ```javascript
-import SkillBar from 'react-scroll-element';
+import ScrollElement from 'react-scroll-element';
 
 <ScrollElement/>
 ```
