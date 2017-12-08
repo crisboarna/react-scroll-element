@@ -32,6 +32,21 @@ const App = () => (
       <h1>chevron-circle-pulse</h1>
       <a href="#s8"><ScrollElement type='chevron-circle-pulse'/></a>
     </section>
+    <section id="s8">
+      <h1>slider</h1>
+      <a href="#s9"><ScrollElement type='slider'/></a>
+    </section>
+    <section id="s9">
+      <h1>slider-chevron</h1>
+      <a href="#s10"><ScrollElement type='slider-chevron'/></a>
+    </section>
+    <section id="s10">
+      <h1>slider-action</h1>
+      <a href="#s11"><ScrollElement type='slider-action'/></a>
+    </section>
+    <section id="s11">
+      <h1>Fin.</h1>
+    </section>
   </div>
 );
 

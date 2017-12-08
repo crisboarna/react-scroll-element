@@ -63,6 +63,21 @@ describe('ScrollElement', () => {
         component = shallow(<ScrollElement type = 'chevron-circle-pulse'/>);
         expect(component).toMatchSnapshot();
       });
+
+      it('slider', () => {
+        component = shallow(<ScrollElement type = 'slider'/>);
+        expect(component).toMatchSnapshot();
+      });
+
+      it('slider chevron', () => {
+        component = shallow(<ScrollElement type = 'slider-chevron'/>);
+        expect(component).toMatchSnapshot();
+      });
+
+      it('slider action', () => {
+        component = shallow(<ScrollElement type = 'slider-action'/>);
+        expect(component).toMatchSnapshot();
+      });
     });
   });
 });
