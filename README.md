@@ -42,11 +42,23 @@ Type of element to be displayed:
 
 `chevron`
 
-`chevron-sliding`
+`chevron-bouncing`
+
+`chevron-sliding-fade`
+
+`chevron-sliding-fade-triple`
+
+`chevron-sliding-fade-spin`
 
 `chevron-circle`
 
 `chevron-circle-pulse`
+
+`slider`
+
+`slider-chevron`
+
+`slider-action`
 
 <b>text</b> - Optional - Defaults to `Scroll`
 

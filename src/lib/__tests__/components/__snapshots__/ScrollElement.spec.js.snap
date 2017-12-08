@@ -39,6 +39,19 @@ exports[`ScrollElement snapshots types chevron 1`] = `
 </div>
 `;
 
+exports[`ScrollElement snapshots types chevron bouncing 1`] = `
+<div
+  className="scroll-element"
+>
+  <div
+    className="scroll-element-chevron-bouncing"
+  >
+    <span />
+    Scroll
+  </div>
+</div>
+`;
+
 exports[`ScrollElement snapshots types chevron circle 1`] = `
 <div
   className="scroll-element"
@@ -58,19 +71,6 @@ exports[`ScrollElement snapshots types chevron circle pulse 1`] = `
 >
   <div
     className="scroll-element-chevron-circle-pulse"
-  >
-    <span />
-    Scroll
-  </div>
-</div>
-`;
-
-exports[`ScrollElement snapshots types chevron sliding 1`] = `
-<div
-  className="scroll-element"
->
-  <div
-    className="scroll-element-chevron-sliding"
   >
     <span />
     Scroll

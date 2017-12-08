@@ -37,11 +37,11 @@
   box-sizing: border-box;
 }
 
-.scroll-element-chevron-sliding {
+.scroll-element-chevron-bouncing {
   padding-top: 60px;
 }
 
-.scroll-element-chevron-sliding span {
+.scroll-element-chevron-bouncing span {
   position: absolute;
   top: 0;
   left: 50%;
@@ -52,12 +52,12 @@
   border-bottom: 1px solid #fff;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  -webkit-animation: scroll-element-chevron-sliding 2s infinite;
-  animation: scroll-element-chevron-sliding 2s infinite;
+  -webkit-animation: scroll-element-chevron-bouncing 2s infinite;
+  animation: scroll-element-chevron-bouncing 2s infinite;
   box-sizing: border-box;
 }
 
-@-webkit-keyframes scroll-element-chevron-sliding {
+@-webkit-keyframes scroll-element-chevron-bouncing {
   0% {
     -webkit-transform: rotate(-45deg) translate(0, 0);
   }
@@ -69,7 +69,7 @@
   }
 }
 
-@keyframes scroll-element-chevron-sliding {
+@keyframes scroll-element-chevron-bouncing {
   0% {
     transform: rotate(-45deg) translate(0, 0);
   }

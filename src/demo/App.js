@@ -9,8 +9,8 @@ const App = () => (
       <a href="#s2"><ScrollElement type='chevron'/></a>
     </section>
     <section id="s2">
-      <h1>chevron-sliding</h1>
-      <a href="#s3"><ScrollElement type='chevron-sliding'/></a>
+      <h1>chevron-bouncing</h1>
+      <a href="#s3"><ScrollElement type='chevron-bouncing'/></a>
     </section>
     <section id="s3">
       <h1>chevron-sliding-fade</h1>
