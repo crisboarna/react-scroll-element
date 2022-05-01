@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/crisboarna/react-scroll-element/compare/v3.0.0...v3.0.1) (2022-05-01)
+
+
+### Bug Fixes
+
+* **doc:** added clean example for project landing ([cc147b8](https://github.com/crisboarna/react-scroll-element/commit/cc147b8004d3517bf3fc7d2d4e73a24137e03f7d))
+
 # [3.0.0](https://github.com/crisboarna/react-scroll-element/compare/v2.0.3...v3.0.0) (2022-05-01)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "react-scroll-element",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "React NPM library containing customizable scroll elements",
   "main": "dist/ejs/index.js",
   "types": "dist/types/index.d.ts",
