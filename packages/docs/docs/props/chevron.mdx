@@ -1,0 +1,30 @@
+---
+sidebar_position: 1
+---
+
+# chevron
+
+You can provide a `type` prop with `chevron`
+```jsx
+import ScrollElement from 'react-scroll-element';
+<ScrollElement type={'chevron'} text={"scroll"}/>
+```
+
+import ThemeAwareComponent from "../../src/components/ThemeAwareComponent";
+
+<ThemeAwareComponent type={'chevron'}/>
+
+## With colors
+
+You can provide `colorText` and `colorIcon` props as well.
+```jsx
+import ScrollElement from 'react-scroll-element';
+<ScrollElement
+    type={'chevron'}
+    text={"scroll"}
+    colorIcon={"#f672b0"}
+    colorText={"#f672b0"}
+/>
+```
+
+<ThemeAwareComponent type={'chevron'} colorIcon={"#f672b0"} colorText={"#f672b0"}/>

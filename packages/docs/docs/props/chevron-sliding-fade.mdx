@@ -1,0 +1,30 @@
+---
+sidebar_position: 5
+---
+
+# chevron-sliding-fade
+
+You can provide a `type` prop with `chevron-sliding-fade`
+```jsx
+import ScrollElement from 'react-scroll-element';
+<ScrollElement type={'chevron-sliding-fade'} text={"scroll"}/>
+```
+
+import ThemeAwareComponent from "../../src/components/ThemeAwareComponent";
+
+<ThemeAwareComponent type={'chevron-sliding-fade'}/>
+
+## With colors
+
+You can provide `colorText` and `colorIcon` props as well.
+```jsx
+import ScrollElement from 'react-scroll-element';
+<ScrollElement
+    type={'chevron-sliding-fade'}
+    text={"scroll"}
+    colorIcon={"#f672b0"}
+    colorText={"#f672b0"}
+/>
+```
+
+<ThemeAwareComponent type={'chevron-sliding-fade'} colorIcon={"#f672b0"} colorText={"#f672b0"}/>

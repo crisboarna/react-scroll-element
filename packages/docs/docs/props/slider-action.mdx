@@ -1,0 +1,30 @@
+---
+sidebar_position: 9
+---
+
+# slider-action
+
+You can provide a `type` prop with `slider-action`
+```jsx
+import ScrollElement from 'react-scroll-element';
+<ScrollElement type={'slider-action'} text={"scroll"}/>
+```
+
+import ThemeAwareComponent from "../../src/components/ThemeAwareComponent";
+
+<ThemeAwareComponent type={'slider-action'}/>
+
+## With colors
+
+You can provide `colorText` and `colorIcon` props as well.
+```jsx
+import ScrollElement from 'react-scroll-element';
+<ScrollElement
+    type={'slider-action'}
+    text={"scroll"}
+    colorIcon={"#f672b0"}
+    colorText={"#f672b0"}
+/>
+```
+
+<ThemeAwareComponent type={'slider-action'} colorIcon={"#f672b0"} colorText={"#f672b0"}/>

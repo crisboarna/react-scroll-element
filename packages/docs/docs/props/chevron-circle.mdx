@@ -1,0 +1,30 @@
+---
+sidebar_position: 3
+---
+
+# chevron-circle
+
+You can provide a `type` prop with `chevron-circle`
+```jsx
+import ScrollElement from 'react-scroll-element';
+<ScrollElement type={'chevron-circle'} text={"scroll"}/>
+```
+
+import ThemeAwareComponent from "../../src/components/ThemeAwareComponent";
+
+<ThemeAwareComponent type={'chevron-circle'}/>
+
+## With colors
+
+You can provide `colorText` and `colorIcon` props as well.
+```jsx
+import ScrollElement from 'react-scroll-element';
+<ScrollElement
+    type={'chevron-circle'}
+    text={"scroll"}
+    colorIcon={"#f672b0"}
+    colorText={"#f672b0"}
+/>
+```
+
+<ThemeAwareComponent type={'chevron-circle'} colorIcon={"#f672b0"} colorText={"#f672b0"}/>

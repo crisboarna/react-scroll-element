@@ -1,0 +1,30 @@
+---
+sidebar_position: 2
+---
+
+# chevron-bouncing
+
+You can provide a `type` prop with `chevron-bouncing`
+```jsx
+import ScrollElement from 'react-scroll-element';
+<ScrollElement type={'chevron-bouncing'} text={"scroll"}/>
+```
+
+import ThemeAwareComponent from "../../src/components/ThemeAwareComponent";
+
+<ThemeAwareComponent type={'chevron-bouncing'}/>
+
+## With colors
+
+You can provide `colorText` and `colorIcon` props as well.
+```jsx
+import ScrollElement from 'react-scroll-element';
+<ScrollElement
+    type={'chevron-bouncing'}
+    text={"scroll"}
+    colorIcon={"#f672b0"}
+    colorText={"#f672b0"}
+/>
+```
+
+<ThemeAwareComponent type={'chevron-bouncing'} colorIcon={"#f672b0"} colorText={"#f672b0"}/>

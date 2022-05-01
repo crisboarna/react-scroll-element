@@ -1,0 +1,30 @@
+---
+sidebar_position: 8
+---
+
+# slider
+
+You can provide a `type` prop with `slider`
+```jsx
+import ScrollElement from 'react-scroll-element';
+<ScrollElement type={'slider'} text={"scroll"}/>
+```
+
+import ThemeAwareComponent from "../../src/components/ThemeAwareComponent";
+
+<ThemeAwareComponent type={'slider'}/>
+
+## With colors
+
+You can provide `colorText` and `colorIcon` props as well.
+```jsx
+import ScrollElement from 'react-scroll-element';
+<ScrollElement
+    type={'slider'}
+    text={"scroll"}
+    colorIcon={"#f672b0"}
+    colorText={"#f672b0"}
+/>
+```
+
+<ThemeAwareComponent type={'slider'} colorIcon={"#f672b0"} colorText={"#f672b0"}/>

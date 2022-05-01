@@ -1,65 +1,108 @@
-# React Scroll Element
+<div align="center">
+<h1>react-scroll-element</h1>
+<h2>
+<a href="https://github.com/crisboarna/react-scroll-element/actions/workflows/merge_main.yaml">
+  <img alt="ci" src="https://github.com/crisboarna/react-scroll-element/actions/workflows/merge_main.yaml/badge.svg">
+</a>
+<a href="https://snyk.io/test/github/crisboarna/react-scroll-element">
+  <img alt="snyk" src="https://snyk.io/test/github/crisboarna/react-scroll-element/badge.svg?targetFile=package.json">
+</a>
+<a href="https://codecov.io/gh/crisboarna/react-scroll-element">
+  <img alt="codecov" src="https://img.shields.io/codecov/c/github/crisboarna/react-scroll-element.svg">
+</a>
+<a href="https://www.npmjs.com/package/react-scroll-element">
+  <img alt="npm" src="https://img.shields.io/npm/v/react-scroll-element.svg">
+</a>
+<a href="http://opensource.org/licenses/MIT">
+  <img alt="license" src="https://img.shields.io/github/license/crisboarna/react-scroll-element">
+</a>
+<a href="https://github.com/semantic-release/semantic-release">
+  <img alt="semantic-release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)">
+</a>
+<a href="http://commitizen.github.io/cz-cli/">
+  <img alt="commitizen" src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)">
+</a>
+<img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103">
+<a href="https://github.com/crisboarna/react-scroll-element">
+  <img alt="stars" src="https://img.shields.io/github/stars/crisboarna/react-scroll-element.svg">
+</a>
+<a href="https://github.com/crisboarna/react-scroll-element">
+  <img alt="issues" src="https://img.shields.io/github/issues/crisboarna/react-scroll-element.svg">
+</a>
+<a href="https://github.com/crisboarna">
+  <img alt="madeby" src="https://img.shields.io/badge/made%20by-crisboarna-blue.svg" >
+</a>
+<a href="https://github.com/crisboarna/react-scroll-element/pulls">
+  <img alt="prs" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat">
+</a>
+<img alt="logo" src="./packages/docs/static/img/readme-logo.gif" width="100%">
+</h2>
+</div>
 
-### React NPM library containing customizable scroll elements.
-[![version](https://img.shields.io/npm/v/react-scroll-element.svg)](http://npm.im/react-scroll-element)
-[![travis build](https://img.shields.io/travis/crisboarna/react-scroll-element.svg)](https://travis-ci.org/crisboarna/react-scroll-element)
-[![codecov coverage](https://img.shields.io/codecov/c/github/crisboarna/react-scroll-element.svg)](https://codecov.io/gh/crisboarna/react-scroll-element)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8d87ae38dea34aa09d0daa0ab81b81cd)](https://www.codacy.com/app/crisboarna/react-scroll-element)
-[![dependency status](https://img.shields.io/david/crisboarna/react-scroll-element.svg)](https://david-dm.org/crisboarna/react-skillbars)
-[![MIT License](https://img.shields.io/npm/l/react-scroll-element.svg)](http://opensource.org/licenses/MIT)
-[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
-![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)
-[![Greenkeeper](https://badges.greenkeeper.io/crisboarna/react-scroll-element.svg)](https://greenkeeper.io/)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+# Documentation & Demo
+Documentation and demo can be found [here](https://crisboarna.github.io/react-scroll-element)
 
-## Live Demo
-Try the interactive demo [here](https://crisboarna.github.io/react-scroll-element)
+# Table of Contents
 
-## Installation
-
-```javascript
-npm i react-scroll-element
-```
-
-## Table of Contents
+* [Installation](#installation)
+* [Description](#description)
+  * [Parameter naming](#parameter-naming)
 * [Setup](#setup)
-* [Properties](#properties)
+* [Development](#development)
+  * [Linting](#linting)
+  * [Testing](#testing)
+* [How To Contribute](#how-to-contribute)
+  * [Bots used](#bots-used)
+* [License](#license)
 
-  
-## Setup
 
-```javascript
-import ScrollElement from 'react-scroll-element';
-
-<ScrollElement/>
+# Installation
+With `yarn`
+```shell
+yarn add react-scroll-element
 ```
 
-## Properties
-<b>type</b> - Optional - Defaults to `chevron`
+or with `npm`
+```shell
+npm install react-scroll-element
+```
 
-Type of element to be displayed:
+# Setup
+Import
+```typescript
+import ScrollElement from 'react-scroll-element';
+```
 
-`chevron`
+# Development
+## Linting
+```shell
+yarn lib:lint
+```
 
-`chevron-bouncing`
+## Testing
+```shell
+yarn lib:test
+```
+`jest` is used for as the testing framework.
 
-`chevron-sliding-fade`
+# How to Contribute
 
-`chevron-sliding-fade-triple`
+1. Clone repo and create a new branch:
+```shell
+git checkout https://github.com/crisboarna/react-scroll-element -b name_for_new_branch`.
+````
+2. Make changes and test
+3. Submit Pull Request with comprehensive description of changes
 
-`chevron-sliding-fade-spin`
+## Bots used
+To facilitate development the following bots are integrated into the repository:
+1. [Request Info](https://github.com/behaviorbot/request-info)
+2. [Semantic Pull Requests](https://github.com/apps/semantic-pull-requests)
+2. [Welcome](https://github.com/apps/welcome)
+3. [Snyk](https://github.com/marketplace/snyk)
+4. [Todo](https://github.com/apps/todo)
 
-`chevron-circle`
+## License
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-`chevron-circle-pulse`
-
-`slider`
-
-`slider-chevron`
-
-`slider-action`
-
-<b>text</b> - Optional - Defaults to `Scroll`
-
-Text to be displayed under element.
+Full license details can be found in [LICENSE.md](./LICENSE.md)
