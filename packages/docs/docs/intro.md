@@ -61,7 +61,7 @@ Default: '#ffffff19'
 
 Optional icon color to be used for fade effect. Only applies to a subset of the available icons.
 
-Parameter needs to be in full hexadecimal format.
+Parameter needs to be in full 6 character hexadecimal format.
 
 ### colorText
 Requirement: optional
